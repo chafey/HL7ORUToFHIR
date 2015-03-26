@@ -1,0 +1,20 @@
+{
+  "name": "HL7ORUToFHIR",
+  "version": "1.0.0",
+  "description": "Receives HL7 ORU messages and updates an HL7 FHIR server",
+  "main": "main.js",
+  "dependencies": {
+    "L7": "^0.2.2",
+    "moment": "^2.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "HL7",
+    "FHIR"
+  ],
+  "author": "Chris Hafey",
+  "license": "ISC"
+}
