@@ -10,5 +10,6 @@ module.exports = {
     // the root URL of the FHIR server
     fhirPath: '/fhir',
     // The message handlers we want to invoke for each received HL7 message
-    messageHandlers: ['./writeMessageToFile.js', './updateFHIRPatient.js']
+    //messageHandlers: ['./writeMessageToFile.js', './updateFHIRPatient.js']
+    messageHandlers: ['./updateFHIRPatient.js']
 };
